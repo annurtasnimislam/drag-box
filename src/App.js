@@ -152,9 +152,6 @@ const MyComponent = () => {
             setDirection(e.target.value);
           }}
         >
-          <option value={""} disabled>
-            Direction
-          </option>
           <option value={"top"}>Top</option>
           <option value={"left"}>Left</option>
           <option value={"right"}>Right</option>
@@ -176,25 +173,9 @@ const MyComponent = () => {
             position: "relative",
             top: `${containerPosition.y}px`,
             left: `${containerPosition.x}px`,
-            border: "1px solid #ccc",
+            border: "1px solid brown",
           }}
         >
-          <div
-            style={{
-              position: "absolute",
-              top: 0,
-              left: "calc(100% - 31px)",
-              width: 30,
-              height: 30,
-              border: "1px solid black",
-              textAlign: "center",
-              cursor: "grab",
-            }}
-            onMouseDown={handleContainerMouseDown}
-          >
-            *
-          </div>
-
           <div
             id="resize-bottom"
             style={{
