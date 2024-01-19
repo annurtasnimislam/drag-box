@@ -1,0 +1,24 @@
+.tooltip {
+  position: fixed;
+  border: 1px solid #ccc;
+  padding: 5px;
+  color: #000;
+  background: #a52a2a;
+  z-index: 1000;
+}
+
+.tooltip.top {
+  transform: translateX(-50%);
+}
+
+.tooltip.left {
+  transform: translateY(-50%);
+}
+
+.tooltip.right {
+  transform: translateY(-50%);
+}
+
+.tooltip.bottom {
+  transform: translateX(-50%);
+}
