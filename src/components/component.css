@@ -1,0 +1,30 @@
+.hoveredComponent {
+  position: fixed;
+  height: 40px;
+  width: 80px;
+  background-color: aqua;
+}
+
+.inner_box {
+  position: absolute;
+  height: 60px;
+  width: 130px;
+  background-color: brown;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.resize-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  cursor: se-resize;
+  height: 20px;
+  width: 20px;
+}
