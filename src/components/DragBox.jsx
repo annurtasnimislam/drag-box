@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Tooltip from "./Tooltip";
 import { TfiHandDrag } from "react-icons/tfi";
-import "./Container.css";
+import "./DragBox.css";
 
 const Container = ({ toolTipPos }) => {
   const [dragging, setDragging] = useState(false);
