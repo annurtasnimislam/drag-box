@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container > p {
+  color: darkgreen;
+  font-weight: 600;
+}
+.option {
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  appearance: none;
+  outline: none;
+  color: darkolivegreen;
+  font-size: 15px;
+  font-weight: 600;
+}
