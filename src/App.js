@@ -1,12 +1,12 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import DragBox from "./components/DragBox";
 
-function App() {
-  const wrapperRef = useRef(null);
+export default function App() {
   const [selectedOption, setSelectedOption] = useState("top");
+
   return (
-    <div className="App">
+    <div className="app">
       <select
         value={selectedOption}
         onChange={(e) => setSelectedOption(e.target.value)}
@@ -17,11 +17,7 @@ function App() {
         <option value={"bottom"}>bottom</option>
       </select>
 
-      <div className="outer_wrapper" ref={wrapperRef}>
-        <DragBox wrapperRef={wrapperRef} selectedOption={selectedOption} />
-      </div>
+      <DragBox toolTipPos={selectedOption} />
     </div>
   );
 }
-
-export default App;
