@@ -1,8 +1,8 @@
 const Tooltip = ({ pos, toolTipPos, containerRef }) => {
   let style = {
     position: "absolute",
-    backgroundColor: "black",
-    color: "orange",
+    backgroundColor: "gray",
+    color: "darkGreen",
     padding: "5px",
     borderRadius: "5px",
     width: "50px",
