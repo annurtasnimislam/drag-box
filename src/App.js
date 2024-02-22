@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className={classes.wrapper}>
       <div className={classes.container}>
-        <p>Position of Tooltip:</p>
+        {/* <p>Position of Tooltip:</p>
         <select
           className={classes.option}
           value={toolPos}
@@ -18,7 +18,7 @@ export default function App() {
           <option value={"right"}>Right</option>
           <option value={"top"}>Top</option>
           <option value={"bottom"}>Bottom</option>
-        </select>
+        </select> */}
       </div>
       <DragBox toolTipPos={toolPos} />
     </div>
