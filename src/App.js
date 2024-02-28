@@ -4,6 +4,7 @@ import DragBox from "./components/DragBox";
 
 export default function App() {
   const [toolPos, setToolPos] = useState("top");
+  console.log(toolPos);
 
   return (
     <div className={classes.wrapper}>

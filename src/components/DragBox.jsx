@@ -7,6 +7,8 @@ const Container = ({ toolTipPos }) => {
   const [dragging, setDragging] = useState(false);
   const [hovering, setHovering] = useState(false);
 
+  console.log(dragging);
+
   const [pos, setPos] = useState({ x: 250, y: 250 });
   const [rel, setRel] = useState({ x: null, y: null });
 

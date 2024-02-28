@@ -12,6 +12,7 @@ const Tooltip = ({ pos, toolTipPos, containerRef }) => {
     justifyContent: "space-evenly",
   };
 
+  console.log("hello");
   switch (toolTipPos) {
     case "top":
       style = {
